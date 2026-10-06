@@ -57,7 +57,7 @@ Import the repository, use the project root as the publish directory, and leave 
 Import the repository, choose a static/Other preset, use the project root and no build command.
 
 ## Logo
-The project expects `assets/logo/aurora-grand-logo.png`. No separate logo image file was available in the supplied upload, so the included image is explicitly marked temporary. Replace that single file with the official logo.
+The project expects `aurora-grand-logo.png`. No separate logo image file was available in the supplied upload, so the included image is explicitly marked temporary. Replace that single file with the official logo.
 
 ## Images
 The demo uses remote Unsplash images. For production, replace them with licensed/owned optimized WebP/AVIF images while retaining meaningful alt text.
@@ -87,3 +87,7 @@ This is a fictional frontend demonstration. Example hotel details, prices, offer
 - Metadata and Hotel JSON-LD
 - No backend secrets
 - GitHub Pages/Netlify/Vercel compatible
+
+
+## GitHub upload
+This version is intentionally flattened for easy GitHub web upload. All website files are in the repository root; no CSS, JS, or logo subfolders are required.
